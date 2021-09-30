@@ -1,7 +1,5 @@
 const stringLength = require('./stringLength');
 
-
-//Task 1
 describe('string test', () => {
   test('counts each character in a string and returns the total', () => {
     expect(stringLength("hello")).toBe(5);
